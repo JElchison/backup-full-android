@@ -8,6 +8,7 @@ Based on [Ryan Conrad](https://android.stackexchange.com/users/1951/ryan-conrad)
 * Performs a full backup via Android's [adb](https://developer.android.com/tools/help/adb.html) tool
 * Writes resultant backup file named (with current timestamp) in directory of your choosing
 * Resultant backup file is encrypted using a user-provided password
+* Resultant backup file is set with read-only permissions
 * Runs on any OS having a Bash environment
 
 ## Usage
