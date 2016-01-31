@@ -58,6 +58,10 @@ Please see instructions at http://android.stackexchange.com/a/28315/91564
     * Activated input languages (i.e. keyboard layouts)
     * Owner name (owner name set in first boot wizard is kept instead)
 
+## Tips
+
+* If you find that you can't click the button that says "Back up my data", check out https://android.stackexchange.com/questions/115865/button-to-allow-adb-backup-not-working
+
 ## Disclaimer
 
 No backup tool is perfect.  This tool has been helpful for me.  If used properly, I hope it's helpful for you.  Unfortunately, I cannot provide any guarantees as to the completeness or soundness of this script with your phone, on your computer, in your environment.  Use at your own risk.
