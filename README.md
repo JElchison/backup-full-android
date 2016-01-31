@@ -9,6 +9,7 @@ Based on [Ryan Conrad](https://android.stackexchange.com/users/1951/ryan-conrad)
 * Writes resultant backup file named (with current timestamp) in directory of your choosing
 * Resultant backup file is encrypted using a user-provided password
 * Resultant backup file is set with read-only permissions
+* Displays "Success!" upon successful completion
 * Runs on any OS having a Bash environment
 
 ## Usage
@@ -20,6 +21,8 @@ Example:
 ```
 ./backup-full-android.sh ~/backups/phone/
 ```
+
+If you don't see the "Success!" message at the end, then something went wrong.
 
 ### Example usage
 On Ubuntu:
