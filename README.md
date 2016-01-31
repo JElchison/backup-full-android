@@ -13,9 +13,11 @@ Based on [Ryan Conrad](https://android.stackexchange.com/users/1951/ryan-conrad)
 ## Usage
 
 ```
+./backup-full-android.sh <dest_dir> 
 ```
 Example:
 ```
+./backup-full-android.sh ~/backups/phone/
 ```
 
 ### Example usage
