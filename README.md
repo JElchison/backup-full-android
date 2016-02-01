@@ -27,6 +27,26 @@ If you don't see the "Success!" message at the end, then something went wrong.
 ### Example usage
 On Ubuntu:
 ```
+user@computer:~$ ./backup-full-android.sh /mnt/raid/bak/phones/MotoX
+[+] Testing dependencies...
+[+] Validating arguments...
+[+] Testing for existence of destination directory...
+[*] Using destination directory = /mnt/raid/bak/phones/MotoX
+[*] Using temp file = /tmp/tmp.VcCVP13c8X
+[+] Starting backup at Sun Jan 31 18:37:58 EST 2016 ...
+Now unlock your device and confirm the backup operation.
+
+real	22m34.601s
+user	0m0.210s
+sys	0m13.169s
+[+] Backup concluded at Sun Jan 31 19:00:33 EST 2016
+[+] Moving temp file to destination directory...
+‘/tmp/tmp.VcCVP13c8X’ -> ‘/mnt/raid/bak/phones/MotoX/20160131183758.ab’
+removed ‘/tmp/tmp.VcCVP13c8X’
+[+] Setting file permissions...
+[*] Output file exists at = /mnt/raid/bak/phones/MotoX/20160131183758.ab
+-rw-r----- 1 user user 3633552917 Jan 31 19:00 /mnt/raid/bak/phones/MotoX/20160131183758.ab
+[+] Success!
 ```
 
 ## Requirements
