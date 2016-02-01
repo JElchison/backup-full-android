@@ -51,7 +51,7 @@ removed ‘/tmp/tmp.VcCVP13c8X’
 
 ## Requirements
 
-* Android 4.0+
+* Phone running Android 4.0+, connected to your computer via USB
 
 ## Environment
 
