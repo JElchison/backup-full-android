@@ -36,9 +36,9 @@ user@computer:~$ ./backup-full-android.sh /mnt/raid/bak/phones/MotoX
 [+] Starting backup at Sun Jan 31 18:37:58 EST 2016 ...
 Now unlock your device and confirm the backup operation.
 
-real	22m34.601s
-user	0m0.210s
-sys	0m13.169s
+real    22m34.601s
+user    0m0.210s
+sys     0m13.169s
 [+] Backup concluded at Sun Jan 31 19:00:33 EST 2016
 [+] Moving temp file to destination directory...
 ‘/tmp/tmp.VcCVP13c8X’ -> ‘/mnt/raid/bak/phones/MotoX/20160131183758.ab’
