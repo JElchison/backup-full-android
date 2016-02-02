@@ -3,6 +3,7 @@ Bash script that performs a full backup of an Android phone (connected via USB).
 
 Based on [Ryan Conrad](https://android.stackexchange.com/users/1951/ryan-conrad)'s answer at http://android.stackexchange.com/a/28315/91564
 
+
 ## Features
 
 * Performs a full backup via Android's [adb](https://developer.android.com/tools/help/adb.html) tool
@@ -11,6 +12,7 @@ Based on [Ryan Conrad](https://android.stackexchange.com/users/1951/ryan-conrad)
 * Resultant backup file is set with read-only permissions
 * Displays "Success!" upon successful completion
 * Runs on any OS having a Bash environment
+
 
 ## Usage
 
@@ -49,9 +51,11 @@ removed ‘/tmp/tmp.VcCVP13c8X’
 [+] Success!
 ```
 
+
 ## Requirements
 
 * Phone running Android 4.0+, connected to your computer via USB
+
 
 ## Environment
 
@@ -61,15 +65,18 @@ removed ‘/tmp/tmp.VcCVP13c8X’
     * adb
 * Setup USB debugging on your phone.  For instructions, please see http://android.stackexchange.com/a/28315/91564
 
+
 ## Prerequisites
 
 To install necessary prerequisites on Ubuntu:
 
     sudo apt-get install android-tools-adb android-tools-adbd
 
+
 ## Restoring
 
 Please see instructions at http://android.stackexchange.com/a/28315/91564
+
 
 ## Limitations
 
@@ -82,9 +89,11 @@ Please see instructions at http://android.stackexchange.com/a/28315/91564
     * Activated input languages (i.e. keyboard layouts)
     * Owner name (owner name set in first boot wizard is kept instead)
 
+
 ## Tips
 
 * If you find that you can't click the button that says "Back up my data", check out https://android.stackexchange.com/questions/115865/button-to-allow-adb-backup-not-working
+
 
 ## Disclaimer
 
