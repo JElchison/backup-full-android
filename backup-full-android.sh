@@ -83,7 +83,7 @@ echo "[+] Moving temp file to destination directory..." >&2
 mv -v $TEMP_FILE "$OUT_FILE"
 
 echo "[+] Setting output file as read-only ..." >&2
-chmod -x "$OUT_FILE"
+chmod -w "$OUT_FILE"
 
 echo "[*] Output file exists at '$OUT_FILE'" >&2
 ls -l "$OUT_FILE"
