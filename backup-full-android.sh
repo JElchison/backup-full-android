@@ -4,7 +4,7 @@
 #
 # Bash script that performs a full backup of an Android phone (connected via USB)
 #
-# Version 1.0.0
+# Version 1.0.1
 #
 # Copyright (C) 2016 Jonathan Elchison <JElchison@gmail.com>
 
