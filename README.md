@@ -47,7 +47,7 @@ sys     0m13.169s
 removed ‘/tmp/tmp.VcCVP13c8X’
 [+] Setting file permissions...
 [*] Output file exists at = /mnt/raid/bak/phones/MotoX/20160131183758.ab
--rw-r----- 1 user user 3633552917 Jan 31 19:00 /mnt/raid/bak/phones/MotoX/20160131183758.ab
+-r--r----- 1 user user 3633552917 Jan 31 19:00 /mnt/raid/bak/phones/MotoX/20160131183758.ab
 [+] Success!
 ```
 
