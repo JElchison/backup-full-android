@@ -40,9 +40,9 @@ user@computer:~$ ./backup-full-android.sh /mnt/raid/bak/phones/MotoX
 * daemon started successfully *
 Now unlock your device and confirm the backup operation.
 
-real	23m3.877s
-user	0m0.226s
-sys	0m14.507s
+real    23m3.877s
+user    0m0.226s
+sys     0m14.507s
 [+] Backup concluded at Sat Mar  5 13:19:24 EST 2016
 [+] Moving temp file to destination directory...
 ‘/tmp/tmp.DS7agv6HzR’ -> ‘/mnt/raid/bak/phones/MotoX/20160305125620.ab’
