@@ -34,20 +34,22 @@ user@computer:~$ ./backup-full-android.sh /mnt/raid/bak/phones/MotoX
 [+] Validating arguments...
 [+] Testing for existence of destination directory...
 [*] Using destination directory = /mnt/raid/bak/phones/MotoX
-[*] Using temp file = /tmp/tmp.VcCVP13c8X
-[+] Starting backup at Sun Jan 31 18:37:58 EST 2016 ...
+[*] Using temp file = /tmp/tmp.DS7agv6HzR
+[+] Starting backup at Sat Mar  5 12:56:20 EST 2016 ...
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
 Now unlock your device and confirm the backup operation.
 
-real    22m34.601s
-user    0m0.210s
-sys     0m13.169s
-[+] Backup concluded at Sun Jan 31 19:00:33 EST 2016
+real	23m3.877s
+user	0m0.226s
+sys	0m14.507s
+[+] Backup concluded at Sat Mar  5 13:19:24 EST 2016
 [+] Moving temp file to destination directory...
-‘/tmp/tmp.VcCVP13c8X’ -> ‘/mnt/raid/bak/phones/MotoX/20160131183758.ab’
-removed ‘/tmp/tmp.VcCVP13c8X’
-[+] Setting file permissions...
-[*] Output file exists at = /mnt/raid/bak/phones/MotoX/20160131183758.ab
--r--r----- 1 user user 3633552917 Jan 31 19:00 /mnt/raid/bak/phones/MotoX/20160131183758.ab
+‘/tmp/tmp.DS7agv6HzR’ -> ‘/mnt/raid/bak/phones/MotoX/20160305125620.ab’
+removed ‘/tmp/tmp.DS7agv6HzR’
+[+] Setting output file as read-only ...
+[*] Output file exists at '/mnt/raid/bak/phones/MotoX/20160305125620.ab'
+-r--r----- 1 user user 3668624773 Mar  5 13:19 /mnt/raid/bak/phones/MotoX/20160305125620.ab
 [+] Success!
 ```
 
