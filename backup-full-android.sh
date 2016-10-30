@@ -60,6 +60,11 @@ if [[ ! -d "$DEST_DIR" ]]; then
     echo "[-] ERROR: '$DEST_DIR' doesn't exist or isn't a directory" >&2
     exit 1
 fi
+echo "[+] Verifying that destination directory is writable..." >&2
+if [[ ! -w "$DEST_DIR" ]]; then
+    echo "[-] ERROR: '$DEST_DIR' isn't writable by current user" >&2
+    exit 1
+fi
 echo "[*] Using destination directory = $DEST_DIR" >&2
 
 
