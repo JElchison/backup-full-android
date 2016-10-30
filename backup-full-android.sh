@@ -67,20 +67,20 @@ echo "[*] Using destination directory = $DEST_DIR" >&2
 # perform backup
 ###############################################################################
 
-TEMP_FILE=`mktemp`
+TEMP_FILE=$(mktemp)
 echo "[*] Using temp file = $TEMP_FILE" >&2
 
 echo "[+] Starting backup at $(date) ..." >&2
 
 # timestamp marks when backup starts
-DATE=`date +%Y%m%d%H%M%S`
+DATE=$(date +%Y%m%d%H%M%S)
 OUT_FILE="$DEST_DIR/$DATE.ab"
 
-time adb backup -f $TEMP_FILE -apk -obb -shared -all -system
+time adb backup -f "$TEMP_FILE" -apk -obb -shared -all -system
 echo "[+] Backup concluded at $(date)" >&2
 
 echo "[+] Moving temp file to destination directory..." >&2
-mv -v $TEMP_FILE "$OUT_FILE"
+mv -v "$TEMP_FILE" "$OUT_FILE"
 
 echo "[+] Setting output file as read-only ..." >&2
 chmod -w "$OUT_FILE"
