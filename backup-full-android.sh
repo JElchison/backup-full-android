@@ -76,7 +76,7 @@ echo "[+] Starting backup at $(date) ..." >&2
 DATE=`date +%Y%m%d%H%M%S`
 OUT_FILE="$DEST_DIR/$DATE.ab"
 
-time adb backup -apk -shared -all -system -f $TEMP_FILE
+time adb backup -f $TEMP_FILE -apk -obb -shared -all -system
 echo "[+] Backup concluded at $(date)" >&2
 
 echo "[+] Moving temp file to destination directory..." >&2
