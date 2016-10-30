@@ -72,7 +72,7 @@ removed ‘/tmp/tmp.DS7agv6HzR’
 
 To install necessary prerequisites on Ubuntu:
 
-    sudo apt-get install android-tools-adb android-tools-adbd
+    sudo apt-get install adb android-tools-adb android-tools-adbd
 
 
 ## Restoring
